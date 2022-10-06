@@ -1,0 +1,66 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background: black;
+}
+.bar{
+    width: 100%;
+    min-height: 160px;
+    background: black;
+    float: left;
+}
+.logo{
+    width: 40%;
+    min-height: inherit;
+    background: black;
+    object-fit: cover;
+    float: left;
+}
+.podmena {
+    height: 160px;
+    width: 500px;
+    
+}
+
+.podmena:hover {
+    content: url(1.gif);
+    height: 160px;
+    width: 500px;
+}
+
+
+
+.menu{
+    width: 60%;
+    min-height: inherit;
+    background: black;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 160px;
+    float: left;
+}
+.menu ul{
+    margin: 20px 0px;
+    padding: 0px;
+    color: white;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px 10px;
+    font-size: 30px;
+    border: 5px double transparent;
+    float: left;
+    box-sizing: border-box;
+}
+.menu ul li:hover{
+    color:  #ffef00;
+    cursor: pointer;
+    border-bottom: 5px double #5ad5fb;
+    border-top: 5px double #5ad5fb;
+    transition: 0.8s;
+}
